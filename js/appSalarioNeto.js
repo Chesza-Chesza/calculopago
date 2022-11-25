@@ -1,5 +1,4 @@
-//export 
-const App = {
+export const App = {
     selectHoras:null,
     selectAnios:null,
     selectPuesto:null,

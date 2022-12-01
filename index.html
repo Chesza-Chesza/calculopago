@@ -11,95 +11,15 @@
 </head>
 
 <body>
-    <div class="container" text-center>
+    <div class="container text-center">
         <div class="display-2">Salario Neto</div>
-        <table class="table">
-            <tr>
-                <td>Puesto</td>
-                <td>Horas</td>
-                <td>Años</td>
-            </tr>
-            <tr>
-                <td>
-                    <select id="puesto" class="form-control">
-                      <option value="1">Gerente</option>
-                      <option value="2">Secretaria</option>
-                      <option value="3">Cajero</option>
-                    </select>
-                </td>
-                <td>
-                    <select id="horas" class="form-control">
-                    </select>
-                </td>
-                <td>
-                    <select id="anios" class="form-control">
-                    </select>
-                </td>
-            </tr>
-        </table>
-
-
-        <table class="table">
-            <tr>
-                <td colspan="2">
-                    <h4>PERCEPCIONES</h4>
-                </td>
-                <td colspan="2">
-                    <h4>DEDUCCIONES</h4>
-                </td>
-            </tr>
-
-            <tr>
-                <td>Sueldo base</td>
-                <td><span id="sueldoBase"></span></td>
-                <td>ISR</td>
-                <td><span id="ISR"></span></td>
-            </tr>
-            <tr>
-                <td>Canasta Básica</td>
-                <td><span id="canastaBasica"></span></td>
-                <td>Servicio Salud</td>
-                <td><span id="servicioSalud"></span></td>
-
-            </tr>
-            <tr>
-                <td>Apoyo</td>
-                <td><span id="apoyo"></span></td>
-                <td>AFORE</td>
-                <td><span id="AFORE"></span></td>
-            </tr>
-            <tr>
-                <td>Antiguedad</td>
-                <td><span id="antiguedad"></span></td>
-                <td>Sindicato</td>
-                <td><span id="sindicato"></span></td>
-            </tr>
-            <tr>
-                <td>Estímulo</td>
-                <td><span id="estimulo"></span></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>TOTAL PERCEPCIONES</td>
-                <td><span id="totalPercepciones"></span></td>
-                <td>TOTAL DEDUCCIONES</td>
-                <td><span id="totalDeducciones"></span></td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <h4>SALARIO NETO</h4>
-                    <td><span id="salarioNeto"></span></td>
-                </td>
-            </tr>
-
-        </table>
-
+        <div id="TableInputs"></div>
+        <div id="TableResults"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <script src="js/appSalarioNeto.js"></script>
+    <script type="module" src="js/appSalarioNeto.js"></script>
 </body>
 
 </html>
